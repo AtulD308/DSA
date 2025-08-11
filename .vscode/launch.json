@@ -1,7 +1,6 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
     {
       "name": "Run C++",
       "type": "cppdbg",
@@ -20,6 +19,14 @@
           "ignoreFailures": true
         }
       ]
+    },
+    {
+      "name": "Run Python File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "python": "python3"
     }
   ]
 }
